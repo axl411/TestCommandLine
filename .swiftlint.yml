@@ -8,4 +8,4 @@ custom_rules:
     message: "Prefer swiftlint:disable:next or swiftlint:disable:this"
     severity: warning
   identifier_name_start_with_k:
-    regex: "^k[A-Z]\\w*$"
+    regex: "\\bk[A-Z]\\w*\\b"
