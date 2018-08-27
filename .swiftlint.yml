@@ -1,0 +1,11 @@
+custom_rules:
+  swiftlint_file_disabling:
+    included: ".*\\.swift"
+    name: "SwiftLint File Disabling"
+    regex: "swiftlint:disable\\s"
+    match_kinds:
+      - comment
+    message: "Prefer swiftlint:disable:next or swiftlint:disable:this"
+    severity: warning
+  identifier_name_start_with_k:
+    regex: "^k[A-Z]\\w*$"
