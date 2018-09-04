@@ -10,7 +10,7 @@
 
 @interface ObjC : NSObject
 
-+ (BOOL)doThings;
++ (void)doThings;
 
 @end
 

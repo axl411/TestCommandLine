@@ -9,6 +9,6 @@
 import Foundation
 
 @objc class SwiftObj: NSObject {
-    public static func test() {
+    @objc public static func test() {
     }
 }

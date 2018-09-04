@@ -8,5 +8,5 @@
 
 import Foundation
 
-let bool = ObjC.doThings()
-print(bool)
+ObjC.doThings()
+SwiftObj.test()

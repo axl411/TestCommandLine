@@ -18,9 +18,8 @@
     return self;
 }
 
-+ (BOOL)doThings {
-    NSNumber *a = nil;
-    return [a boolValue];
++ (void)doThings {
+    
 }
 
 @end
