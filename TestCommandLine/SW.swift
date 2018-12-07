@@ -8,7 +8,8 @@
 
 import Foundation
 
-@objc class SwiftObj: NSObject {
-    @objc public static func test() {
+@objc class SW: NSObject {
+    @objc static func test() {
+        OC.test()
     }
 }

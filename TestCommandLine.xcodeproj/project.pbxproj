@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9777CF73211A86B9000C7D26 /* ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9777CF72211A86B9000C7D26 /* ObjC.m */; };
+		9777CF73211A86B9000C7D26 /* OC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9777CF72211A86B9000C7D26 /* OC.m */; };
 		977845E02119993300DE88B4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977845DF2119993300DE88B4 /* main.swift */; };
 		977845E72119995700DE88B4 /* SW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977845E62119995700DE88B4 /* SW.swift */; };
+		97870E8A21BA4E3B005FB918 /* TestOC.h in Headers */ = {isa = PBXBuildFile; fileRef = 97870E8821BA4E3B005FB918 /* TestOC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97870E8B21BA4E3B005FB918 /* TestOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 97870E8921BA4E3B005FB918 /* TestOC.m */; };
+		97870E8D21BA4E82005FB918 /* Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E665F02133AFD700919D99 /* Test.framework */; };
 		97E665F42133AFD700919D99 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 97E665F22133AFD700919D99 /* Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97E665F92133AFE700919D99 /* TestSW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E665F82133AFE700919D99 /* TestSW.swift */; };
 /* End PBXBuildFile section */
@@ -28,11 +31,13 @@
 
 /* Begin PBXFileReference section */
 		9777CF70211A86B9000C7D26 /* TestCommandLine-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestCommandLine-Bridging-Header.h"; sourceTree = "<group>"; };
-		9777CF71211A86B9000C7D26 /* ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjC.h; sourceTree = "<group>"; };
-		9777CF72211A86B9000C7D26 /* ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjC.m; sourceTree = "<group>"; };
+		9777CF71211A86B9000C7D26 /* OC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OC.h; sourceTree = "<group>"; };
+		9777CF72211A86B9000C7D26 /* OC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC.m; sourceTree = "<group>"; };
 		977845DC2119993300DE88B4 /* TestCommandLine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestCommandLine; sourceTree = BUILT_PRODUCTS_DIR; };
 		977845DF2119993300DE88B4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		977845E62119995700DE88B4 /* SW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SW.swift; sourceTree = "<group>"; };
+		97870E8821BA4E3B005FB918 /* TestOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestOC.h; sourceTree = "<group>"; };
+		97870E8921BA4E3B005FB918 /* TestOC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestOC.m; sourceTree = "<group>"; };
 		97E665F02133AFD700919D99 /* Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97E665F22133AFD700919D99 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		97E665F32133AFD700919D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97870E8D21BA4E82005FB918 /* Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,7 @@
 				977845DE2119993300DE88B4 /* TestCommandLine */,
 				97E665F12133AFD700919D99 /* Test */,
 				977845DD2119993300DE88B4 /* Products */,
+				97870E8C21BA4E81005FB918 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,12 +86,19 @@
 			isa = PBXGroup;
 			children = (
 				977845DF2119993300DE88B4 /* main.swift */,
-				9777CF71211A86B9000C7D26 /* ObjC.h */,
-				9777CF72211A86B9000C7D26 /* ObjC.m */,
+				9777CF71211A86B9000C7D26 /* OC.h */,
+				9777CF72211A86B9000C7D26 /* OC.m */,
 				977845E62119995700DE88B4 /* SW.swift */,
 				9777CF70211A86B9000C7D26 /* TestCommandLine-Bridging-Header.h */,
 			);
 			path = TestCommandLine;
+			sourceTree = "<group>";
+		};
+		97870E8C21BA4E81005FB918 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		97E665F12133AFD700919D99 /* Test */ = {
@@ -92,6 +106,8 @@
 			children = (
 				97E665F22133AFD700919D99 /* Test.h */,
 				97E665F82133AFE700919D99 /* TestSW.swift */,
+				97870E8821BA4E3B005FB918 /* TestOC.h */,
+				97870E8921BA4E3B005FB918 /* TestOC.m */,
 				97E665F32133AFD700919D99 /* Info.plist */,
 			);
 			path = Test;
@@ -104,6 +120,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97870E8A21BA4E3B005FB918 /* TestOC.h in Headers */,
 				97E665F42133AFD700919D99 /* Test.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,7 +179,7 @@
 					};
 					97E665EF2133AFD700919D99 = {
 						CreatedOnToolsVersion = 10.0;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -201,7 +218,7 @@
 			files = (
 				977845E72119995700DE88B4 /* SW.swift in Sources */,
 				977845E02119993300DE88B4 /* main.swift in Sources */,
-				9777CF73211A86B9000C7D26 /* ObjC.m in Sources */,
+				9777CF73211A86B9000C7D26 /* OC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97E665F92133AFE700919D99 /* TestSW.swift in Sources */,
+				97870E8B21BA4E3B005FB918 /* TestOC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

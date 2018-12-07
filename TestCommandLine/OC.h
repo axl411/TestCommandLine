@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ObjC : NSObject
+@interface OC : NSObject
 
-+ (void)doThings;
++ (void)test;
 
 @end
 

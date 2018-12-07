@@ -8,5 +8,5 @@
 
 import Foundation
 
-ObjC.doThings()
-SwiftObj.test()
+OC.test()
+SW.test()

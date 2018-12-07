@@ -6,10 +6,10 @@
 //  Copyright © 2018 linecorp. All rights reserved.
 //
 
-#import "ObjC.h"
+#import "OC.h"
 #import "TestCommandLine-Swift.h"
 
-@implementation ObjC
+@implementation OC
 
 - (instancetype)init {
     self = [super init];
@@ -18,8 +18,8 @@
     return self;
 }
 
-+ (void)doThings {
-    
++ (void)test {
+    [SW test];
 }
 
 @end
