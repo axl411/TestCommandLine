@@ -7,6 +7,9 @@
 //
 
 import Foundation
+import Test
 
 OC.test()
 SW.test()
+TestOC.test()
+TestSW.test()

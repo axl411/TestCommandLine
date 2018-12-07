@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Test
 
 @objc class SW: NSObject {
     @objc static func test() {
