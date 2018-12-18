@@ -20,7 +20,6 @@
 }
 
 + (void)test {
-    [SW test];
 }
 
 @end

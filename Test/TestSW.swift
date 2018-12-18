@@ -10,6 +10,6 @@ import Foundation
 
 @objc public class TestSW: NSObject {
     @objc public static func test() {
-        TestOC.test()
+        
     }
 }

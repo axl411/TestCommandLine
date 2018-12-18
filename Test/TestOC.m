@@ -12,7 +12,6 @@
 @implementation TestOC
 
 + (void)test {
-    [TestSW test];
 }
 
 @end
