@@ -8,7 +8,6 @@
 
 #import "OC.h"
 #import "TestCommandLine-Swift.h"
-@import Test;
 
 @implementation OC
 

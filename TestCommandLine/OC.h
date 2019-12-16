@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+@import Test;
 
 @interface OC : NSObject
 
